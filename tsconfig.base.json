@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@botmind-test/*": ["libs/*"],
+      "@default/*": ["apps/microblogging/src/app/*"],
+      "@env/*": ["apps/microblogging/src/environments/*"],
+      "@botmind-test/api": ["libs/api/src/index.ts"],
+      "@botmind-test/article-list": ["libs/article-list/src/index.ts"],
+      "@botmind-test/auth": ["libs/auth/src/index.ts"],
+      "@botmind-test/ngrx-error": ["libs/ngrx-error/src/index.ts"],
+      "@botmind-test/ngrx-forms": ["libs/ngrx-forms/src/index.ts"],
+      "@botmind-test/ngrx-router": ["libs/ngrx-router/src/index.ts"],
+      "@botmind-test/shared": ["libs/shared/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

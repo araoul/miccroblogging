@@ -29,8 +29,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/microblogging/src/environments/environment.ts",
-                  "with": "apps/microblogging/src/environments/environment.prod.ts"
+                  "replace": "environments/environment.ts",
+                  "with": "environments/environment.prod.ts"
                 }
               ],
               "optimization": true,

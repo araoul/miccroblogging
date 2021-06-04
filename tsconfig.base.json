@@ -18,7 +18,8 @@
     "paths": {
       "@botmind-test/*": ["libs/*"],
       "@default/*": ["apps/microblogging/src/app/*"],
-      "@env/*": ["apps/microblogging/src/environments/*"],
+      "@env/*": ["environments/*"],
+      // "@env/*": ["apps/microblogging/src/environments/*"],
       "@botmind-test/api": ["libs/api/src/index.ts"],
       "@botmind-test/article-list": ["libs/article-list/src/index.ts"],
       "@botmind-test/auth": ["libs/auth/src/index.ts"],

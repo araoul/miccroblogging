@@ -5,6 +5,6 @@
 
 export const environment = {
     production: false,
-    api_url: 'https://microblogging.productionready.io/api',
+    api_url: 'https://34.125.139.10/api',
   };
   
